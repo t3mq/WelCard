@@ -1,16 +1,38 @@
 {
   "name": "welcard",
-  "version": "1.1.8",
+  "version": "1.2.3",
   "description": "",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node exemple/test"
   },
-  "author": "zqx_",
-  "license": "ISC",
+  "files": [
+    "build",
+    "res"
+  ],
+  "keywords": [
+    "welcard",
+    "discord-welcome-card",
+    "welcome-card-discord",
+    "discord.js",
+    "image",
+    "node-canvas",
+    "canvas-constructor",
+    "discord",
+    "discord-canvas"
+  ],
+  "author": "ZqxDev",
+  "license": "MIT",
   "dependencies": {
     "@napi-rs/canvas": "^0.1.44",
-    "color-thief-node": "^1.0.4",
-    "welcard": "^1.1.8"
+    "color-thief-node": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZqxDev/WelCard"
+  },
+  "bugs": {
+    "url": "https://github.com/ZqxDev/WelCard/issues"
   }
 }

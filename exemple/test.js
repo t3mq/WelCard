@@ -3,11 +3,12 @@
     const fs = require("fs");
 
     const card = new welCard()
-        .setName("Paradise")
-        .setAuthor("By Alan Walker")
+        .setName("Bienvenue")
+        .setAuthor("Zqx_")
+        .setServer("Sur 🪐| LunarWave")
         .setColor("auto")
         .setBrightness(50)
-        .setThumbnail("https://i0.wp.com/is4-ssl.mzstatic.com/image/thumb/Music115/v4/20/6a/38/206a382f-da9e-0a6c-81a7-8db2397b6438/886449597628.jpg/600x600bb-60.jpg")
+        .setThumbnail("https://cdn.discordapp.com/avatars/359924289832484865/dae79e262689070227d7ee2c72b20ae9.png?size=4096")
        
     const cardBuffer = await card.build();
 

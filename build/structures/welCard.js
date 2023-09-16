@@ -18,6 +18,7 @@ class welCard {
         this.color = null;
         this.brightness = null;
         this.thumbnail = null;
+        this.server = null;
     }
 
     setName(name) {
@@ -42,6 +43,11 @@ class welCard {
 
     setThumbnail(thumbnail) {
         this.thumbnail = thumbnail;
+        return this;
+    }
+    
+    setServer(server) {
+        this.server = server;
         return this;
     }
 
@@ -124,6 +130,7 @@ class welCard {
 
         if (this.name.length > 15) this.name = `${this.name.slice(0, 15)}...`;
         if (this.author.length > 15) this.author = `${this.author.slice(0, 15)}...`;
+        if (this.author.length > 15) this.author = `${this.author.slice(0, 15)}...`;
 
         const image = canvas.createCanvas(1280, 450);
         const ctx = image.getContext('2d');
@@ -137,6 +144,10 @@ class welCard {
         ctx.fillStyle = '#b8b8b8';
         ctx.font = `50px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
         ctx.fillText(this.author, 75, 190);
+
+        ctx.fillStyle = '#b8b8b8';
+        ctx.font = `40px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
+        ctx.fillText(this.server, 75, 380);
 
         ctx.drawImage(thumbnailCanvas, 837, 8, 435, 435);
 
