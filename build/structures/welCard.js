@@ -3,14 +3,12 @@ const devmod = false;
 const canvas = require("@napi-rs/canvas");
 const { colorFetch } = require("../functions/colorFetch");
 
-// Register fonts
 canvas.GlobalFonts.registerFromPath(`${devmod ? "" : "node_modules/welcard/"}res/fonts/circularstd-black.otf`, "circular-std");
 canvas.GlobalFonts.registerFromPath(`${devmod ? "" : "node_modules/welcard/"}res/fonts/notosans-jp-black.ttf`, "noto-sans-jp");
 canvas.GlobalFonts.registerFromPath(`${devmod ? "" : "node_modules/welcard/"}res/fonts/notosans-black.ttf`, "noto-sans");
 canvas.GlobalFonts.registerFromPath(`${devmod ? "" : "node_modules/welcard/"}res/fonts/notoemoji-bold.ttf`, "noto-emoji");
 canvas.GlobalFonts.registerFromPath(`${devmod ? "" : "node_modules/welcard/"}res/fonts/notosans-kr-black.ttf`, "noto-sans-kr");
 
-// Create music card class
 class welCard {
     constructor() {
         this.name = null;
@@ -146,7 +144,7 @@ class welCard {
         ctx.fillText(this.author, 75, 190);
 
         ctx.fillStyle = '#b8b8b8';
-        ctx.font = `40px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
+        ctx.font = `30px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
         ctx.fillText(this.server, 75, 380);
 
         ctx.drawImage(thumbnailCanvas, 837, 8, 435, 435);
