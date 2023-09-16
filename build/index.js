@@ -1,3 +1,3 @@
-const { WelCard } = require("./structures/welCard");
+const { welCard } = require("./structures/welCard");
 
-module.exports = { WelCard };
+module.exports = { welCard };
