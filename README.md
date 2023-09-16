@@ -35,7 +35,7 @@ npm i welcard
 ```
 
 **Output** : card.png
-![output](https://raw.githubusercontent.com/ZqxDev/musicard/main/assets/example.png)
+![output](https://github.com/ZqxDev/WelCard/blob/main/exemple/card.png)
 
 # Support
 If you're creating a project with **welCard**, don't hesitate to contact us via our [discord]() server.
