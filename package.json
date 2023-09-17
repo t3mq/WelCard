@@ -1,6 +1,6 @@
 {
   "name": "welcard",
-  "version": "1.2.9",
+  "version": "1.3.0",
   "description": "WelCard is a lightweight and futuristic welcome card libary designed for Discord Bots.",
   "main": "build/index.js",
   "types": "build/index.d.ts",

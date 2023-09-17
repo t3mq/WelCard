@@ -155,7 +155,7 @@ class welCard {
 
         ctx.fillStyle = '#b8b8b8';
         ctx.font = `20px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
-        ctx.fillText(this.about, 75, 400);
+        ctx.fillText(this.about, 75, 395);
 
         ctx.drawImage(thumbnailCanvas, 837, 8, 435, 435);
 
