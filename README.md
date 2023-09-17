@@ -1,4 +1,4 @@
-![](https://github.com/ZqxDev/WelCard/blob/main/assets/Welcard.png)
+![](https://cdn.discordapp.com/attachments/1103257179315777537/1152868562306863124/image.png)
 
 # About
 
