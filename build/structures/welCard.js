@@ -17,6 +17,7 @@ class welCard {
         this.brightness = null;
         this.thumbnail = null;
         this.server = null;
+        this.about = null;
     }
 
     setName(name) {
@@ -46,6 +47,11 @@ class welCard {
     
     setServer(server) {
         this.server = server;
+        return this;
+    }
+    
+    setAbout(about) {
+        this.about = about;
         return this;
     }
 
