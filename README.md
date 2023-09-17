@@ -38,4 +38,4 @@ npm i welcard
 ![output](https://github.com/ZqxDev/WelCard/blob/main/exemple/card.png)
 
 # Support
-If you're creating a project with **welCard**, don't hesitate to contact us via our [discord](https://discord.gg/8D6je4XnDS) server.
+If you're creating a project with **welCard**, don't hesitate to contact us via our [discord](https://discord.gg/eEvCKg45y3) server.
