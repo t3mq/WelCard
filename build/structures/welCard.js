@@ -74,7 +74,7 @@ class welCard {
                     'User-Agent': 'Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)',
                 }
             }
-        })
+        });
 
         const thumbnailSize = Math.min(thumbnailImage.width, thumbnailImage.height);
         const thumbnailX = (thumbnailImage.width - thumbnailSize) / 2;

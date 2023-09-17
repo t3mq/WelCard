@@ -16,7 +16,7 @@
     console.log("done")
 })()
 
-// Now Direct Immersion With A Bot Discord
+// Now Direct Immersion With A Bot Discord //
 
 const { welCard } = require("welcard");
 
