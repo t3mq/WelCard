@@ -147,6 +147,10 @@ class welCard {
         ctx.font = `30px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
         ctx.fillText(this.server, 75, 380);
 
+        ctx.fillStyle = '#b8b8b8';
+        ctx.font = `20px circular-std, noto-emoji, noto-sans-jp, noto-sans, noto-sans-kr`;
+        ctx.fillText(this.about, 75, 400);
+
         ctx.drawImage(thumbnailCanvas, 837, 8, 435, 435);
 
         return image.toBuffer('image/png');
